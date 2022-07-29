@@ -1,5 +1,5 @@
-import React from 'react'
 import Link from 'next/link'
+import React from 'react'
 
 export default function ProductItem({ product }) {
   return (
@@ -18,7 +18,7 @@ export default function ProductItem({ product }) {
             <p className='mb-2'>{product.brand}</p>
             <p>${product.price}</p>
             <button className='primary-button' type='button'>
-                Add To Cart
+                Add to cart
             </button>
         </div>
     </div>
